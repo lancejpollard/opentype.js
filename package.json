@@ -1,5 +1,6 @@
 {
   "name": "opentype.js",
+  "version": "3.1.1",
   "description": "OpenType font parser",
   "author": {
     "name": "Frederik De Bleser",
