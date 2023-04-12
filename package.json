@@ -1,6 +1,6 @@
 {
   "name": "opentype.js",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "description": "OpenType font parser",
   "author": {
     "name": "Frederik De Bleser",
@@ -21,9 +21,9 @@
     "type": "git",
     "url": "git://github.com/opentypejs/opentype.js.git"
   },
-  "main": "./dist/opentype.js",
-  "browser": "./dist/opentype.js",
-  "module": "./dist/opentype.module.js",
+  "main": "./dist2/opentype.js",
+  "browser": "./dist2/opentype.js",
+  "module": "./dist2/opentype.module.js",
   "scripts": {
     "build": "npm run b:umd && npm run b:esm",
     "dist": " npm run d:umd && npm run d:esm",
