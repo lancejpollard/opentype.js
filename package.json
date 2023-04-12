@@ -1,6 +1,6 @@
 {
   "name": "opentype.js",
-  "version": "3.1.1",
+  "version": "3.1.2",
   "description": "OpenType font parser",
   "author": {
     "name": "Frederik De Bleser",
@@ -39,7 +39,7 @@
   "devDependencies": {
     "esbuild": "^0.17.7",
     "eslint": "^8.34.0",
-    "mocha": "^8.4.0",
+    "mocha": "^10.2.0",
     "reify": "^0.20.12"
   },
   "bin": {
@@ -55,7 +55,9 @@
       "es2021": true,
       "node": true
     },
-    "plugins": ["eslint-plugin-local-rules"],
+    "plugins": [
+      "eslint-plugin-local-rules"
+    ],
     "extends": "eslint:recommended",
     "parserOptions": {
       "ecmaVersion": 2018,
